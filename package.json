@@ -1,0 +1,33 @@
+{
+  "name": "goit-js-hw-11-timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://ffarenn.github.io/goit-js-hw-11-timernpm,",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11-timer/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffarenn/goit-js-hw-11-timer.git"
+  },
+  "keywords": [],
+  "author": "Andrejs Klimza <ffarenn22@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ffarenn/goit-js-hw-11-timer/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.7.2",
+    "sass": "^1.42.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
