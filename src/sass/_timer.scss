@@ -1,0 +1,37 @@
+body {
+  font-family: 'Share Tech Mono', monospace;
+  background: #0f3854;
+  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+  background-size: 100%;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.05em;
+  padding: 200px 15px;
+}
+
+.field {
+  width: 144px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 30px;
+}
+
+.value {
+  color: #daf6ff;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+  font-size: 100px;
+}
+
+.label {
+  text-transform: uppercase;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+  color: #daf6ff;
+  font-size: 30px;
+  margin-top: 20px;
+}
